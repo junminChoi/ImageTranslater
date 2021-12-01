@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap {
+  max-width: 50%;
+}
+
+.upload {
+  width: 1000px;
+  height: 450px;
+  background-color: red;
+}
+
+.translation {
+  width: 1000px;
+  height: 400px;
+  background-color: blue;
+}
+
+#textEn, #textKo {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  margin-left: 65px;
+}
+
+.title {
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  background-color: white;
+}
+
+.content {
+  width: 400px;
+  height: 350px;
+  background-color: yellow;
+  font-size: 18px;
+  word-break:break-all;
+  overflow: auto;
+}
+
+#imgView {
+  width: 1000px;
+  height: 400px;
+  background-color: brown;
+}
+
+#uploadForm {
+  width: 1000px;
+  height: 50px;
+  background-color: violet;
+  text-align: center;
+  line-height: 50px;
+}
