@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script  src='http://code.jquery.com/jquery-latest.min.js'></script>
+    <script defer src='/javascripts/script.js'></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="upload">
+        <div id="imgView">
+          <!-- 이미지 띄우는 곳 -->
+        </div>
+        <form id='uploadForm'>
+          <input type="file" id="filename" name="file" accept="image/*"/>
+          <button type="button" id="uploadBtn">변환</button>
+        </form>
+      </div>
+      <div class="translation">
+        <div id="textEn">
+          <div class="title"><h1>영어</h1></div>
+          <div class="content" id="contentEn"></div>
+        </div>
+        <div id="textKo">
+          <div class="title"><h1>한국어</h1></div>
+          <div class="content" id="contentKo"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
