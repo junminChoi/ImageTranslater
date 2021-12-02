@@ -7,6 +7,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .wrap {
@@ -16,17 +17,22 @@ body {
 .upload {
   width: 1000px;
   height: 450px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .translation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
   width: 1000px;
   height: 400px;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 #textEn, #textKo {
-  display: inline-block;
+  /*display: inline-block;*/
   width: 400px;
   height: 400px;
   background-color: green;
@@ -43,22 +49,23 @@ body {
 .content {
   width: 400px;
   height: 350px;
-  background-color: yellow;
+  background-color: #d3d3d3;
   font-size: 18px;
   word-break:break-all;
   overflow: auto;
 }
 
 #imgView {
+  margin-top: 50px;
   width: 1000px;
   height: 400px;
-  background-color: brown;
+  /*background-color: brown;*/
 }
 
 #uploadForm {
   width: 1000px;
   height: 50px;
-  background-color: violet;
+  background-color: #b2b2b2;
   text-align: center;
   line-height: 50px;
 }
